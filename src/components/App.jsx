@@ -32,7 +32,6 @@ class App extends Component {
 
   render() {
     const { good, neutral, bad } = this.state;
-    const { feedbackTypes } = this.props;
 
     return (
       <>
